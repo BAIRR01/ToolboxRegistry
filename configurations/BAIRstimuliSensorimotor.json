@@ -1,61 +1,36 @@
 [
 	{
-		"flavor": "",
+		"flavor": "sensorimotor",
 		"hook": "",
 		"importance": "",
 		"localHookTemplate": "",
-		"name": "signal",
-		"pathPlacement": "append",
-		"subfolder": "",
-		"toolboxRoot": "",
-		"type": "installed",
-		"update": "",
-		"url": ""
-	},
-	{
-		"flavor": "",
-		"hook": "",
-		"importance": "",
-		"localHookTemplate": "",
-		"name": "stats",
-		"pathPlacement": "append",
-		"subfolder": "",
-		"toolboxRoot": "",
-		"type": "installed",
-		"update": "",
-		"url": ""
-	},
-	{
-		"flavor": "",
-		"hook": "",
-		"importance": "",
-		"localHookTemplate": "",
-		"name": "images",
-		"pathPlacement": "append",
-		"subfolder": "",
-		"toolboxRoot": "",
-		"type": "installed",
-		"update": "",
-		"url": ""
-	},
-    {
-		"flavor": "",
-		"hook": "",
-		"name": "isetbio",
-        "localHookTemplate": "configuration/isetbioLocalHookTemplate.m",
+		"name": "BAIRstimuli",
 		"pathPlacement": "append",
 		"subfolder": "",
 		"toolboxRoot": "",
 		"type": "git",
 		"update": "",
-		"url": "https://github.com/isetbio/isetbio.git"
+		"url": "https://github.com/BAIRR01/BAIR_stimuli.git"
 	},
-    {
+	{
+		"flavor": "sensorimotor",
+		"hook": "",
+		"importance": "",
+		"localHookTemplate": "",
+		"name": "vistadispBAIR",
+		"pathPlacement": "append",
+		"subfolder": "",
+		"toolboxRoot": "",
+		"type": "git",
+		"update": "",
+		"url": "https://github.com/BAIRR01/vistadisp.git"
+	},
+	{
 		"flavor": "",
 		"hook": "",
 		"importance": "",
 		"localHookTemplate": "",
-		"name": "UnitTestToolbox",
+		"name": "Psychtoolbox-3",
 		"pathPlacement": "append",
 		"subfolder": "",
 		"toolboxRoot": "",
@@ -76,12 +51,25 @@
 		"update": "",
 		"url": ""
 	},
-    {
+	{
 		"flavor": "",
 		"hook": "",
 		"importance": "",
 		"localHookTemplate": "",
-		"name": "ExampleTestToolbox",
+		"name": "matlabPyrTools",
+		"pathPlacement": "append",
+		"subfolder": "",
+		"toolboxRoot": "",
+		"type": "include",
+		"update": "",
+		"url": ""
+	},
+	{
+		"flavor": "",
+		"hook": "",
+		"importance": "",
+		"localHookTemplate": "",
+		"name": "knk",
 		"pathPlacement": "append",
 		"subfolder": "",
 		"toolboxRoot": "",
